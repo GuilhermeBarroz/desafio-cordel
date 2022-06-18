@@ -1,0 +1,130 @@
+@charset "utf-08";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap'); /*Fonte do título*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap'); /*Fonte do cordel*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+
+header{
+    background-color: black;
+    background-size: cover;
+    text-align: center;
+}
+
+header > h1{
+    color: white;
+    padding-top: 70px;
+    font-family: 'Passion One', cursive;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 86px; 
+    font-size: 10vw;
+}
+
+nav{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+main{
+    font-size: 20px;
+
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;
+}
+
+.fundo-branco1{
+    background-color: white;
+    color: black;
+}
+
+
+.fundo-branco2{
+    background-color: white;
+    color: black;
+}
+
+
+.fundo-branco3{
+    background-color: white;
+    color: black;
+}
+
+.fundo-img1{
+    background-image: url(imagens/background001.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  
+}
+
+.fundo-img1 > p{
+    background-color: rgba(0, 0, 0, 0.39);
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px 0px black;
+    
+}
+
+.fundo-img2{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    box-shadow: inset 6px 6px 10px rgba(0, 0, 0, 0.384);
+    background-attachment: fixed;
+}
+
+.fundo-img2 > p {
+    background-color: rgba(0, 0, 0, 0.39);
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px 0px black;
+}
+
+footer{
+    background-color: black;
+    font-family: 'Sriracha', cursive;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-size: 15px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
